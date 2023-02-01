@@ -1,4 +1,22 @@
 {
+    "name": "killworm737/twaddress",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Killworm737\\Twaddress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Killworm737\\Twaddress\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kim.chen",
+            "email": "killworm737@gmail.com"
+        }
+    ],
     "require": {
         "phpunit/phpunit": "^9.5"
     }
